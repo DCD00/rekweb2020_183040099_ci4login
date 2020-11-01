@@ -1,0 +1,151 @@
+CRITICAL - 2020-10-18 08:12:24 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4app\app\Controllers\Komik.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#2 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Komik->index()
+#3 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#4 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-10-18 08:13:31 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4app\app\Controllers\Komik.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM k...')
+#2 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Komik->index()
+#3 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#4 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-10-18 08:22:04 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Model.php(454): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Komik.php(25): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Komik->index()
+#4 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-10-18 08:23:18 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Model.php(454): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Komik.php(25): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Komik->index()
+#4 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-10-18 08:24:56 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Model.php(454): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Komik.php(25): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Komik->index()
+#4 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-10-18 08:29:35 --> Undefined variable: komikModel
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Komik.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(890): App\Controllers\Komik->__construct()
+#2 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-18 08:30:55 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Model.php(454): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Komik.php(21): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Komik->index()
+#4 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-10-18 08:31:41 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Model.php(454): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Komik.php(21): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Komik->index()
+#4 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-10-18 08:39:21 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('komik')
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('komik')
+#2 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-18 08:39:44 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Model.php(454): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Komik.php(17): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Komik->index()
+#4 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-10-18 08:43:55 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Model.php(454): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Komik.php(17): CodeIgniter\Model->findAll()
+#3 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Komik->index()
+#4 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-10-18 08:54:26 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('komik/index', Array, true)
+#1 C:\xampp\htdocs\ci4app\app\Controllers\Komik.php(32): view('komik/index', Array)
+#2 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Komik->index()
+#3 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Komik))
+#4 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-10-18 10:02:19 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('komik')
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('komik')
+#2 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-18 10:02:26 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('komik')
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('komik')
+#2 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-18 10:12:45 --> syntax error, unexpected '}', expecting ';'
+#0 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-18 10:12:59 --> syntax error, unexpected '}', expecting ';'
+#0 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
